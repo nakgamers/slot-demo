@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #3B0144, #3B0144);
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .game-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .game-item {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .game-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .game-item:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 600px) {
+            .game-list {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar Game</h1>
+        <div class="game-list">
+            <div class="game-item" onclick="openGame('/slot-demo/sl.html')">
+                <img src="/slot-demo/image/Starlight-Princess_EN_339x180_01.png" alt="Game 1">
+                <p>Starlight Princess</p>
+            </div>
+            <div class="game-item" onclick="openGame('/slot-demo/slc.html')">
+                <img src="/slot-demo/image/Starlight-Christmas_339x180.png" alt="Game 2">
+                <p>Starlight Princess Christmas</p>
+            </div>
+            <div class="game-item" onclick="openGame('/slot-demo/gool.html')">
+                <img src="/slot-demo/image/GOOL_EN_339x180.png" alt="Game 3">
+                <p>Gate of Olympus</p>
+            </div>
+            <div class="game-item" onclick="openGame('/slot-demo/sbc.html')">
+                <img src="/slot-demo/image/Sweet-Bonanza-Xmas%E2%84%A2_339x180.png" alt="Game 4">
+                <p>Sweet Bonanza Xmas</p>
+            </div>
+            <div class="game-item" onclick="openGame('/slot-demo/sb.html')">
+                <img src="/slot-demo/image/Sweet-Bonanza%E2%84%A2_Thumb_339x180-3.png" alt="Game 5">
+                <p>Sweet Bonanza</p>
+            </div>
+            <div class="game-item" onclick="openGame('/slot-demo/dog.html')">
+                <img src="/slot-demo/image/The-Dog-House%E2%84%A2_339x180px-1-1.png" alt="Game 6">
+                <p>The Dog House</p>
+            </div>
+            <div class="game-item" onclick="openGame('/slot-demo/thor.html')">
+                <img src="/slot-demo/image/Power_of_Thor_Megaways_EN_339x180" alt="Game 7">
+                <p>Thor Megaways</p>
+            </div>
+	    <div class="game-item" onclick="openGame('/slot-demo/wwg.html')">
+                <img src="/slot-demo/image/Wild_West_Gold_Megaways_EN_339x180_01-1.png" alt="Game 8">
+                <p>Wild West Gold</p>
+            </div>
+	    <div class="game-item" onclick="openGame('/slot-demo/zvh.html')">
+                <img src="/slot-demo/image/Zeus-vs-Hades-Gods-of-war_339x180.png" alt="Game 9">
+                <p>Zeus vs Hades </p>
+            </div>
+            <!-- Tambahkan game lainnya di sini -->
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+        <!-- Tempatkan kode iklan di bawah ini -->
+        <script type="text/javascript" src="https://wap4dollar.com/ad/code/?id=n1gtrit4z8"></script>
+    </div>
+    <script>
+        function openGame(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
