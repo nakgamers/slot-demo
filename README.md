@@ -9,7 +9,7 @@ type game : Slots <br>
 
 Build with ChatGPT help
 
-Demo Site : <a href="https://demo-slot.nandz.my.id">See Demo</a>
+Demo Site : <a href="https://slot-demo.nandz.my.id">See Demo</a>
 
 # Let's connect with me!
 <p>
